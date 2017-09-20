@@ -1,4 +1,4 @@
-class Api::V1::RepositoriesController < Api::V1::BaseController
+class Api::RepositoriesController < Api::BaseController
   def index
   @repositories = Repository.all
   end
