@@ -14,9 +14,9 @@ chdir APP_ROOT do
   # This script is a way to update your development environment automatically.
   # Add necessary update steps to this file.
 
-  # puts '== Installing dependencies =='
-  # system! 'gem install bundler --conservative'
-  # system('bundle check') || system!('bundle install')
+  puts '== Installing dependencies =='
+  system! 'gem install bundler --conservative'
+  system('bundle check') || system!('bundle install')
 
   puts "\n== Updating database =="
   system! 'bin/rails db:migrate'
