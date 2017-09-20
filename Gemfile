@@ -17,7 +17,7 @@ gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'httparty'
-
+gem 'rails_12factor'
 
 group :development, :test do
   gem 'pry-byebug'
