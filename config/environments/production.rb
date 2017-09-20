@@ -1,6 +1,6 @@
 Rails.application.configure do
   config.action_mailer.default_url_options = { host: "https://reposcwb.herokuapp.com/" }
-  https://git.heroku.com/reposcwb.git
+  #https://git.heroku.com/reposcwb.git
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
